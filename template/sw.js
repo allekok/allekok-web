@@ -16,7 +16,7 @@ self.addEventListener('install', function(event) {
 				'${relPath}app/font/DroidNaskh-Regular.woff',
 				'${relPath}app/font/Material-Icons.woff2',
 				/* Template */
-				'${relPath}template/logo.png',
+				'${relPath}template/logo.jpg',
 			]);
 		}));
 });
