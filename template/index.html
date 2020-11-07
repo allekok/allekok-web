@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+	<head>
+		<script>	 
+		 navigator.serviceWorker.register('${relPath}sw.js');
+		</script>
+		<title>
+			ئاڵەکۆک
+		</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="app/main.css">
+		<meta property="og:image" content="template/logo.png">
+		<link rel="apple-touch-icon" href="template/logo.png">
+		<link rel="manifest" href="site.webmanifest">
+		<meta name="source-code" content="https://github.com/allekok/allekok-web">
+	</head>
+	<body style="animation:fade .5s;">
+		<header>
+			<button type="button" onclick="index();">
+				<h1>
+					ئاڵەکۆک
+				</h1>
+			</button>
+		</header>
+		<div id="main">
+			<div class='loading'></div>
+			<script src="app/allekok.js"></script>
+			<script>
+			 last_location();
+			 check_poets_img_update_all();
+			 check_index_version();
+			</script>
+		</div>
+	</body>
+</html>
