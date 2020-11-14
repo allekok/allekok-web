@@ -6,6 +6,7 @@ self.addEventListener('install', function(event) {
 		caches.open(cache_ver).then(function(cache) {
 			return cache.addAll([
 				/* Root */
+				'${relPath}',
 				'${relPath}index.html',
 				'${relPath}back.jpg',
 				'${relPath}sw.js',
