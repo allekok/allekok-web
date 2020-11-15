@@ -1,7 +1,5 @@
-# Usage
-```
+Usage
 	$ git submodule init && git submodule update
 	$ cd app && cp config-sample.js config.js && ./make && cd ..
 	$ echo 'Your Relative Path' > relPath
 	$ ./make
-```
