@@ -1,14 +1,14 @@
 {
-    "name": "ئاڵەکۆک",
-    "short_name": "ئاڵەکۆک",
-    "icons": [
-        {
-            "src": "${relPath}template/logo.jpg",
-            "sizes": "512x512",
-            "type": "image/jpg"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+	"name": "ئاڵەکۆک",
+	"short_name": "ئاڵەکۆک",
+	"icons": [
+		{
+			"src": "${relPath}template/logo.jpg",
+			"sizes": "512x512",
+			"type": "image/jpg"
+		}
+	],
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"display": "standalone"
 }
